@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+.leftbox{
+    background-color: white;
+    width:15vw;
+    height: 100vh;
+    position: fixed;
+}
+.rightbox{
+    background-color:rgb(242, 247, 247);
+    width: 85vw;
+ 
+    position: relative;
+    top: 0;
+    left: 15vw;
+
+}
+.box1{
+    width:57%;
+    background-color: red;
+    height: 50vh;
+
+}
+.title{
+    color: white;
+    font-size: 40px;
+    width:35vw;
+    position: absolute;
+    top:50px;
+    left: 200px;
+    z-index: 2;
+    text-align:center ;
+}
+.carim{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 50%;
+    height: 43vh;
+    z-index: 1;
+}
+.btn1{
+    background-color: white;
+    width: fit-content;
+    border: 2px solid white;
+    padding: 10px 15px;
+    color: blue;
+    display: inline-block;
+    margin-left: 220px;
+    
+    
+}
+.btn2{
+    background-color: red;
+    width: fit-content;
+    border: 2px solid white;
+    padding: 10px 15px;
+    color: white;
+    display: inline-block;
+    margin-top: 33vh;
+}
+.btn1:hover{
+    background-color: blue;
+    border: 2px solid black;
+    color: white;
+}
+.btn2:hover{
+    background-color: white;
+    border: 2px solid white;
+    color:blue;
+}
+#of1{
+    color: blue;
+    text-align: center;
+    margin-top: 50px;
+}
+#spcl1{
+    text-align: center;
+}
+.leftbox{
+    position: fixed;
+}  
+
+
+
+.nav{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    padding: 5px;
+}
+.navb{
+    padding: 5px 0px;
+    font-weight: bold;
+}
+.contact{
+    position: absolute;
+    bottom: 1%;
+    
+}
+.hmid{
+    text-align: center;
+    color: gray;
+}
+#hmid1{
+    font-size: 15px;
+}
+h2{
+    text-align: center;
+} 
+#logo{
+    width: 100px;
+    height: 100px;
+   margin-left: 50px;
+}
+table{
+    margin-top: 50px;
+    margin-left: 275px;
+    border-collapse: collapse;
+}
+td{
+    width: 200px;
+    height: 200px;
+}
+.tbox{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    text-align: center;
+    padding-top: 1px;
+    margin-top: -1px;
+}
+
+.th1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.spclim{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.tpara{
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 5%;
+    
+}
+#price{
+    color: green;
+    margin-bottom: 5%;
+}
